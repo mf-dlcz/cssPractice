@@ -21,15 +21,19 @@ body {
 * Section One
 */
 
-.section-one {
-  background-color: #FFF;
+.section-one,
+.section-two {
   padding: 10px 20px;
+  margin: 0 auto;
   border:#EF5839;
   border-style: dashed;
-  margin: 0;
 }
 
-.section-one-title {
+.section-one {
+  background-color: #FFF;
+}
+
+.section-title {
   font-size: 24px;
   color: #EF5839;
 }
@@ -40,11 +44,19 @@ body {
   padding: 0;
 }
 
-.section-one-link {
+.section-link {
   color: #EF5839;
+}
+
+.bold {
+  font-weight: 700;
 }
 
 /*
 * Section Two
 */
 
+.section-two {
+  background-color: #2E354F;
+  color: #FFF;
+}
