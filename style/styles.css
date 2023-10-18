@@ -6,8 +6,12 @@ body {
   font-size: 18px;
 }
 /*
-* Title
+* Header
 */
+
+.container {
+  
+}
 
 #title {
   color: white;
@@ -35,6 +39,7 @@ body {
   font-size: 24px;
   color: #EF5839;
   margin: 0 0 10px;
+  font-weight: 900;
 }
 
 .section-one-img {
@@ -50,8 +55,13 @@ body {
   color: #EF5839;
 }
 
+.section-link:hover,
+.section-link:focus {
+  color: #D4B44C;
+}
+
 .bold {
-  font-weight: 700;
+  font-weight: 900;
 }
 
 /*
@@ -67,7 +77,7 @@ body {
 .btn {
   padding: 10px 20px;
   margin: 5px 10px 20px 0;
-  font-weight: 700;
+  font-weight: 900;
 }
 
 .contact-btn {
