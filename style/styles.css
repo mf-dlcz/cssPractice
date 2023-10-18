@@ -80,6 +80,11 @@ body {
   font-weight: 900;
 }
 
+.btn:hover,
+.btn:focus {
+  background-color:#D4B44C;
+}
+
 .contact-btn {
   color:#FFF;
   background-color: #EF5839;
